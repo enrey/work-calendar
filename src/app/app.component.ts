@@ -1,5 +1,7 @@
+import { EmployeeStoreService } from './store/employee-store.service';
+import { ContextStoreService } from 'src/app/store/context-store.service';
+import { EmployeeRepositoryService } from './employee-repository.service';
 import { Component, OnInit } from '@angular/core';
-import { TestDataService } from './test-data.service';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +11,18 @@ import { TestDataService } from './test-data.service';
 export class AppComponent implements OnInit {
   title = 'work-calendar';
 
-  constructor(private testDataService: TestDataService) {}
+  constructor(
+    private employeeRepositoryService: EmployeeRepositoryService,
+    private employeeStoreService: EmployeeStoreService,
+    private сontextStoreService: ContextStoreService
+  ) {}
 
   ngOnInit(): void {
-    this.testDataService.initTestData();
+    this.employeeRepositoryService.loadEmployees();
+    this.employeeStoreService.employees$
+      .subscribe(res => {
+        this.сontextStoreService.setCurrentUser(res[0]);
+      })
+      .unsubscribe();
   }
 }

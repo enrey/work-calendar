@@ -52,7 +52,7 @@ export class CalendarComponent implements OnInit {
     //   }
     // ]);
 
-    this.taskRepositoryService.loadTasks(this.contextStoreService.getSelectedUser());
+    //this.taskRepositoryService.loadTasks(this.contextStoreService.getSelectedUser());
 
     this.contextStoreService
       .getCurrentDate$()

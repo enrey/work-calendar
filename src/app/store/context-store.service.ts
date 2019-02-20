@@ -1,19 +1,21 @@
 import { Injectable } from '@angular/core';
 import * as moment from 'moment';
 import { Moment } from 'moment';
-import { BehaviorSubject, Observable } from 'rxjs';
+import { BehaviorSubject, Observable, ReplaySubject } from 'rxjs';
 import { DayType } from './../shared/const/day-type.const';
-import { employeeList } from '../test-data';
 import { Employee } from '../models/employee.model';
 
 @Injectable({ providedIn: 'root' })
 export class ContextStoreService {
-  private currentUser = new BehaviorSubject<Employee>(employeeList[0]);
-  private selectedUser = new BehaviorSubject<Employee>(employeeList[0]);
+  private currentUser = BehaviorSubject.create();
+  private selectedUser = BehaviorSubject.create();
   private currentDate = new BehaviorSubject<Moment>(moment().startOf('day'));
   private dayType = new BehaviorSubject<DayType>(DayType.COMMON);
+  //public Bool;
 
   constructor() {}
+
+  //combined = combineLatest(timerOne, timerTwo, timerThree);
 
   public getCurrentDate$(): Observable<Moment> {
     return this.currentDate;

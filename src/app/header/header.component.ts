@@ -20,6 +20,8 @@ export class HeaderComponent implements OnInit {
   }
 
   selectCurrentUser() {
+    //this.contextStoreService.getSelectedUser$.next.setSelectedUser(this.contextStoreService.getCurrentUser());
+    //this.contextStoreService.getSelectedUser$.next(this.contextStoreService.getCurrentUser()));
     this.contextStoreService.setSelectedUser(this.contextStoreService.getCurrentUser());
   }
 

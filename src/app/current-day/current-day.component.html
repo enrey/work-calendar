@@ -1,4 +1,4 @@
 <div class="day">
   <p>Присутствие на {{ currentDate$ | async | datePipe: 'D MMMM YYYY' }}</p>
-  <p>{{ (selectedUser$ | async).surname }} {{ (selectedUser$ | async).name }}</p>
+  <p>{{ (selectedUser$ | async)?.surname }} {{ (selectedUser$ | async)?.name }}</p>
 </div>

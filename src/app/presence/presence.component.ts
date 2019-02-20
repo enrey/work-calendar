@@ -17,7 +17,7 @@ export class PresenceComponent implements OnInit, OnDestroy {
     this.id = this.route.snapshot.params.id
       ? this.route.snapshot.params.id
       : this.contextStoreService.getSelectedUser();
-    //alert(this.id);
+    // alert(this.id);
     // this.sub = this.route.params.subscribe(params => {
     //   this.id = +params['id']; // (+) converts string 'id' to a number
     //   alert(this.id);
