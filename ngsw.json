@@ -1,0 +1,92 @@
+{
+  "configVersion": 1,
+  "timestamp": 1581062601895,
+  "index": "/work-calendar/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/work-calendar/4.2399ce885d2e4fb02de8.js",
+        "/work-calendar/favicon.ico",
+        "/work-calendar/index.html",
+        "/work-calendar/main.e02ce69384e7bfd1f834.js",
+        "/work-calendar/polyfills.7e61eeabe4f75fabb7d3.js",
+        "/work-calendar/runtime.e3c443b1a368d96f99ea.js",
+        "/work-calendar/styles.f663ed8f5fa1689694be.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/work-calendar/assets/git-info.json",
+        "/work-calendar/assets/html/print-vacation.html",
+        "/work-calendar/assets/icons/add.svg",
+        "/work-calendar/assets/icons/icon-128x128.png",
+        "/work-calendar/assets/icons/icon-144x144.png",
+        "/work-calendar/assets/icons/icon-152x152.png",
+        "/work-calendar/assets/icons/icon-192x192.png",
+        "/work-calendar/assets/icons/icon-384x384.png",
+        "/work-calendar/assets/icons/icon-512x512.png",
+        "/work-calendar/assets/icons/icon-72x72.png",
+        "/work-calendar/assets/icons/icon-96x96.png",
+        "/work-calendar/assets/icons/remove.svg",
+        "/work-calendar/fontawesome-webfont.674f50d287a8c48dc19b.eot",
+        "/work-calendar/fontawesome-webfont.912ec66d7572ff821749.svg",
+        "/work-calendar/fontawesome-webfont.af7ae505a9eed503f8b8.woff2",
+        "/work-calendar/fontawesome-webfont.b06871f281fee6b241d6.ttf",
+        "/work-calendar/fontawesome-webfont.fee66e712a8a08eef580.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/work-calendar/4.2399ce885d2e4fb02de8.js": "720627f7fb942778ab117058821810ed0e5d4752",
+    "/work-calendar/assets/git-info.json": "e90e43c42683826b75ce18fb46b4f0d2cf87617f",
+    "/work-calendar/assets/html/print-vacation.html": "e35fadeea440954b4ccdc8fad1bee9aadff89c5f",
+    "/work-calendar/assets/icons/add.svg": "ce57aeedc03bd6580e059c32baaa80a8969c9071",
+    "/work-calendar/assets/icons/icon-128x128.png": "0783275ef171a43e452732adb217db9bc2364c58",
+    "/work-calendar/assets/icons/icon-144x144.png": "aa7285f030d43c4798a3a21c20d9480ce1ac666e",
+    "/work-calendar/assets/icons/icon-152x152.png": "1f69de9c6bb57294d5fc9d1cb55bae075d670f7e",
+    "/work-calendar/assets/icons/icon-192x192.png": "d9f096634feb4f36c5db1ffe4a1e6bdd42c21c24",
+    "/work-calendar/assets/icons/icon-384x384.png": "cebf8cf73aba8bf2a3aa228b4fce8188420faab9",
+    "/work-calendar/assets/icons/icon-512x512.png": "7d09313b86a889e59e602fb012c10dff132156a4",
+    "/work-calendar/assets/icons/icon-72x72.png": "8588489a973d255c2e42b6c1d00561786565cac0",
+    "/work-calendar/assets/icons/icon-96x96.png": "b32f19f2ce7b5e5b218bd8d9cad0a81113d0bcde",
+    "/work-calendar/assets/icons/remove.svg": "b602beca1e473f8a1576bfbd4ae6e357685331de",
+    "/work-calendar/favicon.ico": "011d56f0d6a8693893ddf74f23c5a5894b098ca0",
+    "/work-calendar/fontawesome-webfont.674f50d287a8c48dc19b.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "/work-calendar/fontawesome-webfont.912ec66d7572ff821749.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "/work-calendar/fontawesome-webfont.af7ae505a9eed503f8b8.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/work-calendar/fontawesome-webfont.b06871f281fee6b241d6.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/work-calendar/fontawesome-webfont.fee66e712a8a08eef580.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/work-calendar/index.html": "979bd316e035075d4c47275e9a9ec812cff547a3",
+    "/work-calendar/main.e02ce69384e7bfd1f834.js": "d40cae94eab31a3181b7620f3a96e463c679e2ca",
+    "/work-calendar/polyfills.7e61eeabe4f75fabb7d3.js": "6946e10a03311677a01490b8e91741668e64e17e",
+    "/work-calendar/runtime.e3c443b1a368d96f99ea.js": "5891e5a33b9a09ac22194ae148590534b9f17d16",
+    "/work-calendar/styles.f663ed8f5fa1689694be.css": "852f7aaaf7694f590048ca1f98ee1e725159d4dd"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
